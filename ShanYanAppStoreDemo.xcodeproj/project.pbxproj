@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5BDECDC73BA5F93B964DDC /* Pods_ShanYanAppStoreDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFAFC92782477B1DD1201DC /* Pods_ShanYanAppStoreDemoUITests.framework */; };
+		2A66FCCA243D9D9200B5E43F /* ShanYanNetstatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A66FCC9243D9D9200B5E43F /* ShanYanNetstatusViewController.swift */; };
+		2A66FD01243DEA0C00B5E43F /* ShanYanNetworkStatusTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A66FD00243DEA0C00B5E43F /* ShanYanNetworkStatusTool.m */; };
+		34FD35DB593F572C199869C7 /* Pods_ShanYanAppStoreDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF17FACF9A83B0DDFBA4FA6 /* Pods_ShanYanAppStoreDemoTests.framework */; };
+		3F0F092E25959A2300895599 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F092D25959A2300895599 /* PlayerView.m */; };
+		6445DE39DFEF2AC95C5D35C1 /* Pods_ShanYanAppStoreDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6772FEDC890E6B70845DB852 /* Pods_ShanYanAppStoreDemo.framework */; };
+		6E0EC8C023CEE98000CD8793 /* 颜色遮罩_x264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0EC8BF23CEE8E900CD8793 /* 颜色遮罩_x264.mp4 */; };
+		6E14B88A2301979500EEA17D /* success.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6E14B8892301979500EEA17D /* success.gif */; };
+		6E14B88F2302590B00EEA17D /* ShanYanConfigureMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14B88E2302590B00EEA17D /* ShanYanConfigureMaker.swift */; };
+		6E14B8942302A86A00EEA17D /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14B8932302A86A00EEA17D /* CustomNavigationController.swift */; };
+		6E14B8BA23052AED00EEA17D /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6E14B8B923052AED00EEA17D /* loading.gif */; };
+		6E5EA40822FBCE700018218C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EA40722FBCE700018218C /* CustomButton.swift */; };
+		6E5EA40A22FBF3170018218C /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EA40922FBF3170018218C /* DebugViewController.swift */; };
+		6E5EA41522FD7DBF0018218C /* PreviewSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5EA41422FD7DBF0018218C /* PreviewSuccessViewController.swift */; };
+		6E69510924DE4BF60005FBD1 /* PhoneNumberCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69510024DE4BF60005FBD1 /* PhoneNumberCheckController.m */; };
+		6E69510A24DE4BF60005FBD1 /* ShanYanGetPhoneNumberDemoCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69510224DE4BF60005FBD1 /* ShanYanGetPhoneNumberDemoCode.m */; };
+		6E69510B24DE4BF60005FBD1 /* ShanYanIndex.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E69510524DE4BF60005FBD1 /* ShanYanIndex.html */; };
+		6E69510C24DE4BF60005FBD1 /* ShanYanUIConfigureMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69510724DE4BF60005FBD1 /* ShanYanUIConfigureMaker.m */; };
+		6E69510D24DE4BF60005FBD1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69510824DE4BF60005FBD1 /* TestViewController.m */; };
+		6E69511324DE4D620005FBD1 /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E69510F24DE4D610005FBD1 /* LottieLogo2.json */; };
+		6E69511424DE4D620005FBD1 /* UIColor+DymaicColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69511224DE4D620005FBD1 /* UIColor+DymaicColor.m */; };
+		6E69511924DE4E5B0005FBD1 /* CLConsoleBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E69511624DE4E5B0005FBD1 /* CLConsoleBundle.bundle */; };
+		6E69512C24DE75EC0005FBD1 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69512524DE75EB0005FBD1 /* NSArray+HYBUnicodeReadable.m */; };
+		6E69512D24DE75EC0005FBD1 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69512624DE75EB0005FBD1 /* NSDictionary+HYBUnicodeReadable.m */; };
+		6E69512E24DE75EC0005FBD1 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69512724DE75EB0005FBD1 /* NSSet+HYBUnicodeReadable.m */; };
+		6E69513124DE76BB0005FBD1 /* CLConsole.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E69513024DE76BB0005FBD1 /* CLConsole.framework */; };
+		6E6E8E7623C2DB2C002A66CD /* ShanYanCustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E8E7523C2DB2C002A66CD /* ShanYanCustomLoginViewController.swift */; };
+		6E6E8E7A23C2DCF8002A66CD /* ShanYanVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E8E7923C2DCF8002A66CD /* ShanYanVideoPlayerView.swift */; };
+		6E76333E23C4622000724806 /* ShanYanCustomMobileCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E76333D23C4622000724806 /* ShanYanCustomMobileCheckViewController.swift */; };
+		6E76335B23C5C73A00724806 /* ShanYanCustomSMSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E76335A23C5C73A00724806 /* ShanYanCustomSMSLoginViewController.swift */; };
+		6E86438F24D7FC4C003A3863 /* ShanYanGetPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86438E24D7FC4B003A3863 /* ShanYanGetPhoneNumber.swift */; };
+		6EF27EC822FA62A1000C4666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF27EC722FA62A1000C4666 /* AppDelegate.swift */; };
+		6EF27ECA22FA62A1000C4666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF27EC922FA62A1000C4666 /* ViewController.swift */; };
+		6EF27ECD22FA62A1000C4666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF27ECB22FA62A1000C4666 /* Main.storyboard */; };
+		6EF27ECF22FA62A2000C4666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF27ECE22FA62A2000C4666 /* Assets.xcassets */; };
+		6EF27ED222FA62A2000C4666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF27ED022FA62A2000C4666 /* LaunchScreen.storyboard */; };
+		6EF27EDD22FA62A2000C4666 /* ShanYanAppStoreDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF27EDC22FA62A2000C4666 /* ShanYanAppStoreDemoTests.swift */; };
+		6EF27EE822FA62A2000C4666 /* ShanYanAppStoreDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF27EE722FA62A2000C4666 /* ShanYanAppStoreDemoUITests.swift */; };
+		A61D44D226A5563400EFCBB1 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61D44D126A5563400EFCBB1 /* Network.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A6C2D21A2A2590E400FD7439 /* sdk_oauth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D2142A2590E400FD7439 /* sdk_oauth.bundle */; };
+		A6C551C12DBB190B00C1A15B /* OAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C551BF2DBB190B00C1A15B /* OAuth.xcframework */; };
+		A6C551C22DBB190B00C1A15B /* TYRZUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C551C02DBB190B00C1A15B /* TYRZUISDK.xcframework */; };
+		A6C551C32DBB190B00C1A15B /* EAccountApiSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C551BE2DBB190B00C1A15B /* EAccountApiSDK.xcframework */; };
+		A6C551C42DBB190B00C1A15B /* CL_ShanYanSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C551BD2DBB190B00C1A15B /* CL_ShanYanSDK.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EF27ED922FA62A2000C4666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF27EBC22FA62A1000C4666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF27EC322FA62A1000C4666;
+			remoteInfo = ShanYanAppStoreDemo;
+		};
+		6EF27EE422FA62A2000C4666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF27EBC22FA62A1000C4666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF27EC322FA62A1000C4666;
+			remoteInfo = ShanYanAppStoreDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A66FCC9243D9D9200B5E43F /* ShanYanNetstatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanYanNetstatusViewController.swift; sourceTree = "<group>"; };
+		2A66FCFF243DEA0C00B5E43F /* ShanYanNetworkStatusTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShanYanNetworkStatusTool.h; sourceTree = "<group>"; };
+		2A66FD00243DEA0C00B5E43F /* ShanYanNetworkStatusTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShanYanNetworkStatusTool.m; sourceTree = "<group>"; };
+		3F0F092C25959A2300895599 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		3F0F092D25959A2300895599 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		52238138BB1E1E0FFFE4D6AD /* Pods-ShanYanAppStoreDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanYanAppStoreDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ShanYanAppStoreDemoUITests/Pods-ShanYanAppStoreDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		539DEEA39BFBAAF6D53651A2 /* Pods-ShanYanAppStoreDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanYanAppStoreDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ShanYanAppStoreDemoTests/Pods-ShanYanAppStoreDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6772FEDC890E6B70845DB852 /* Pods_ShanYanAppStoreDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanYanAppStoreDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B60D515651EAFE8AF7B0D7B /* Pods-ShanYanAppStoreDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanYanAppStoreDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ShanYanAppStoreDemoTests/Pods-ShanYanAppStoreDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0EC8BF23CEE8E900CD8793 /* 颜色遮罩_x264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "颜色遮罩_x264.mp4"; sourceTree = "<group>"; };
+		6E14B88323015CC800EEA17D /* ShanYanAppStoreDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShanYanAppStoreDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E14B8892301979500EEA17D /* success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = success.gif; sourceTree = "<group>"; };
+		6E14B88E2302590B00EEA17D /* ShanYanConfigureMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanYanConfigureMaker.swift; sourceTree = "<group>"; };
+		6E14B8932302A86A00EEA17D /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		6E14B89C2303EC4800EEA17D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6E14B89E2303EC4E00EEA17D /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		6E14B8A02303EC5700EEA17D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		6E14B8A22303EC5F00EEA17D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6E14B8A42303EC6600EEA17D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6E14B8A62303EC6D00EEA17D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6E14B8A82303EC7400EEA17D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6E14B8AA2303EC7A00EEA17D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6E14B8AC2303EC7F00EEA17D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6E14B8AE2303EC8700EEA17D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6E14B8B02303EC8F00EEA17D /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		6E14B8B22303EC9600EEA17D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6E14B8B923052AED00EEA17D /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		6E5EA40722FBCE700018218C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		6E5EA40922FBF3170018218C /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
+		6E5EA41422FD7DBF0018218C /* PreviewSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSuccessViewController.swift; sourceTree = "<group>"; };
+		6E69510024DE4BF60005FBD1 /* PhoneNumberCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberCheckController.m; sourceTree = "<group>"; };
+		6E69510124DE4BF60005FBD1 /* PhoneNumberCheckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberCheckController.h; sourceTree = "<group>"; };
+		6E69510224DE4BF60005FBD1 /* ShanYanGetPhoneNumberDemoCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShanYanGetPhoneNumberDemoCode.m; sourceTree = "<group>"; };
+		6E69510324DE4BF60005FBD1 /* ShanYanUIConfigureMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShanYanUIConfigureMaker.h; sourceTree = "<group>"; };
+		6E69510424DE4BF60005FBD1 /* ShanYanGetPhoneNumberDemoCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShanYanGetPhoneNumberDemoCode.h; sourceTree = "<group>"; };
+		6E69510524DE4BF60005FBD1 /* ShanYanIndex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ShanYanIndex.html; sourceTree = "<group>"; };
+		6E69510624DE4BF60005FBD1 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6E69510724DE4BF60005FBD1 /* ShanYanUIConfigureMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShanYanUIConfigureMaker.m; sourceTree = "<group>"; };
+		6E69510824DE4BF60005FBD1 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6E69510F24DE4D610005FBD1 /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		6E69511124DE4D610005FBD1 /* UIColor+DymaicColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+DymaicColor.h"; path = "../UIColor+DymaicColor.h"; sourceTree = "<group>"; };
+		6E69511224DE4D620005FBD1 /* UIColor+DymaicColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DymaicColor.m"; path = "../UIColor+DymaicColor.m"; sourceTree = "<group>"; };
+		6E69511624DE4E5B0005FBD1 /* CLConsoleBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLConsoleBundle.bundle; sourceTree = "<group>"; };
+		6E69512524DE75EB0005FBD1 /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		6E69512624DE75EB0005FBD1 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		6E69512724DE75EB0005FBD1 /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		6E69512824DE75EB0005FBD1 /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		6E69512924DE75EB0005FBD1 /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		6E69512A24DE75EB0005FBD1 /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		6E69513024DE76BB0005FBD1 /* CLConsole.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLConsole.framework; sourceTree = "<group>"; };
+		6E6E8E7523C2DB2C002A66CD /* ShanYanCustomLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanYanCustomLoginViewController.swift; sourceTree = "<group>"; };
+		6E6E8E7923C2DCF8002A66CD /* ShanYanVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanYanVideoPlayerView.swift; sourceTree = "<group>"; };
+		6E76333D23C4622000724806 /* ShanYanCustomMobileCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanYanCustomMobileCheckViewController.swift; sourceTree = "<group>"; };
+		6E76335A23C5C73A00724806 /* ShanYanCustomSMSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShanYanCustomSMSLoginViewController.swift; sourceTree = "<group>"; };
+		6E86438E24D7FC4B003A3863 /* ShanYanGetPhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShanYanGetPhoneNumber.swift; sourceTree = "<group>"; };
+		6EF27EC422FA62A1000C4666 /* ShanYanAppStoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShanYanAppStoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF27EC722FA62A1000C4666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EF27EC922FA62A1000C4666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EF27ECC22FA62A1000C4666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EF27ECE22FA62A2000C4666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EF27ED122FA62A2000C4666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EF27ED322FA62A2000C4666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF27ED822FA62A2000C4666 /* ShanYanAppStoreDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShanYanAppStoreDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF27EDC22FA62A2000C4666 /* ShanYanAppStoreDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanYanAppStoreDemoTests.swift; sourceTree = "<group>"; };
+		6EF27EDE22FA62A2000C4666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF27EE322FA62A2000C4666 /* ShanYanAppStoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShanYanAppStoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF27EE722FA62A2000C4666 /* ShanYanAppStoreDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanYanAppStoreDemoUITests.swift; sourceTree = "<group>"; };
+		6EF27EE922FA62A2000C4666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFAFC92782477B1DD1201DC /* Pods_ShanYanAppStoreDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanYanAppStoreDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDCF43995816EFC7BE9431 /* Pods-ShanYanAppStoreDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanYanAppStoreDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShanYanAppStoreDemoUITests/Pods-ShanYanAppStoreDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E7C43128854E3D002D3892 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		A431189F8B06CBE3870D2BAE /* Pods-ShanYanAppStoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanYanAppStoreDemo.release.xcconfig"; path = "Target Support Files/Pods-ShanYanAppStoreDemo/Pods-ShanYanAppStoreDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A61D44D126A5563400EFCBB1 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		A6C2D2142A2590E400FD7439 /* sdk_oauth.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sdk_oauth.bundle; sourceTree = "<group>"; };
+		A6C551BD2DBB190B00C1A15B /* CL_ShanYanSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CL_ShanYanSDK.xcframework; sourceTree = "<group>"; };
+		A6C551BE2DBB190B00C1A15B /* EAccountApiSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = EAccountApiSDK.xcframework; sourceTree = "<group>"; };
+		A6C551BF2DBB190B00C1A15B /* OAuth.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:CJ346CFVA9:Bin Liang"; lastKnownFileType = wrapper.xcframework; path = OAuth.xcframework; sourceTree = "<group>"; };
+		A6C551C02DBB190B00C1A15B /* TYRZUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TYRZUISDK.xcframework; sourceTree = "<group>"; };
+		BBF17FACF9A83B0DDFBA4FA6 /* Pods_ShanYanAppStoreDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanYanAppStoreDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD62C2D82C04756B7B41FC15 /* Pods-ShanYanAppStoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanYanAppStoreDemo.debug.xcconfig"; path = "Target Support Files/Pods-ShanYanAppStoreDemo/Pods-ShanYanAppStoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EF27EC122FA62A1000C4666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61D44D226A5563400EFCBB1 /* Network.framework in Frameworks */,
+				6445DE39DFEF2AC95C5D35C1 /* Pods_ShanYanAppStoreDemo.framework in Frameworks */,
+				6E69513124DE76BB0005FBD1 /* CLConsole.framework in Frameworks */,
+				A6C551C12DBB190B00C1A15B /* OAuth.xcframework in Frameworks */,
+				A6C551C22DBB190B00C1A15B /* TYRZUISDK.xcframework in Frameworks */,
+				A6C551C32DBB190B00C1A15B /* EAccountApiSDK.xcframework in Frameworks */,
+				A6C551C42DBB190B00C1A15B /* CL_ShanYanSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF27ED522FA62A2000C4666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD35DB593F572C199869C7 /* Pods_ShanYanAppStoreDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF27EE022FA62A2000C4666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5BDECDC73BA5F93B964DDC /* Pods_ShanYanAppStoreDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C2AE7AE037369A51787748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7C43128854E3D002D3892 /* libc++.1.tbd */,
+				A61D44D126A5563400EFCBB1 /* Network.framework */,
+				6E14B8B22303EC9600EEA17D /* CoreText.framework */,
+				6E14B8B02303EC8F00EEA17D /* Photos.framework */,
+				6E14B8AE2303EC8700EEA17D /* MediaPlayer.framework */,
+				6E14B8AC2303EC7F00EEA17D /* Accelerate.framework */,
+				6E14B8AA2303EC7A00EEA17D /* ImageIO.framework */,
+				6E14B8A82303EC7400EEA17D /* AssetsLibrary.framework */,
+				6E14B8A62303EC6D00EEA17D /* MapKit.framework */,
+				6E14B8A42303EC6600EEA17D /* WebKit.framework */,
+				6E14B8A22303EC5F00EEA17D /* libsqlite3.tbd */,
+				6E14B8A02303EC5700EEA17D /* libresolv.tbd */,
+				6E14B89E2303EC4E00EEA17D /* libxml2.tbd */,
+				6E14B89C2303EC4800EEA17D /* libz.tbd */,
+				6772FEDC890E6B70845DB852 /* Pods_ShanYanAppStoreDemo.framework */,
+				BBF17FACF9A83B0DDFBA4FA6 /* Pods_ShanYanAppStoreDemoTests.framework */,
+				7FFAFC92782477B1DD1201DC /* Pods_ShanYanAppStoreDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A66FCF1243DDCAC00B5E43F /* NetstatusInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2A66FCC9243D9D9200B5E43F /* ShanYanNetstatusViewController.swift */,
+				2A66FCFF243DEA0C00B5E43F /* ShanYanNetworkStatusTool.h */,
+				2A66FD00243DEA0C00B5E43F /* ShanYanNetworkStatusTool.m */,
+			);
+			path = NetstatusInfo;
+			sourceTree = "<group>";
+		};
+		2AB9B93A2443FFA000004612 /* OC版本参考 */ = {
+			isa = PBXGroup;
+			children = (
+				6E69512F24DE76240005FBD1 /* Vender */,
+				6E69510624DE4BF60005FBD1 /* TestViewController.h */,
+				6E69510824DE4BF60005FBD1 /* TestViewController.m */,
+				3F0F092C25959A2300895599 /* PlayerView.h */,
+				3F0F092D25959A2300895599 /* PlayerView.m */,
+				6E69510324DE4BF60005FBD1 /* ShanYanUIConfigureMaker.h */,
+				6E69510724DE4BF60005FBD1 /* ShanYanUIConfigureMaker.m */,
+				6E6950FF24DE4BF60005FBD1 /* PhoneNumberCheck(本机号校验) */,
+				6E69510424DE4BF60005FBD1 /* ShanYanGetPhoneNumberDemoCode.h */,
+				6E69510224DE4BF60005FBD1 /* ShanYanGetPhoneNumberDemoCode.m */,
+				6E69510F24DE4D610005FBD1 /* LottieLogo2.json */,
+				6E69510524DE4BF60005FBD1 /* ShanYanIndex.html */,
+			);
+			path = "OC版本参考";
+			sourceTree = "<group>";
+		};
+		6E6950FF24DE4BF60005FBD1 /* PhoneNumberCheck(本机号校验) */ = {
+			isa = PBXGroup;
+			children = (
+				6E69510124DE4BF60005FBD1 /* PhoneNumberCheckController.h */,
+				6E69510024DE4BF60005FBD1 /* PhoneNumberCheckController.m */,
+			);
+			path = "PhoneNumberCheck(本机号校验)";
+			sourceTree = "<group>";
+		};
+		6E69512424DE75EB0005FBD1 /* HYBUnicodeReadable */ = {
+			isa = PBXGroup;
+			children = (
+				6E69512524DE75EB0005FBD1 /* NSArray+HYBUnicodeReadable.m */,
+				6E69512624DE75EB0005FBD1 /* NSDictionary+HYBUnicodeReadable.m */,
+				6E69512724DE75EB0005FBD1 /* NSSet+HYBUnicodeReadable.m */,
+				6E69512824DE75EB0005FBD1 /* NSArray+HYBUnicodeReadable.h */,
+				6E69512924DE75EB0005FBD1 /* NSDictionary+HYBUnicodeReadable.h */,
+				6E69512A24DE75EB0005FBD1 /* NSSet+HYBUnicodeReadable.h */,
+			);
+			path = HYBUnicodeReadable;
+			sourceTree = "<group>";
+		};
+		6E69512F24DE76240005FBD1 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				6E69513024DE76BB0005FBD1 /* CLConsole.framework */,
+				6E69511124DE4D610005FBD1 /* UIColor+DymaicColor.h */,
+				6E69511224DE4D620005FBD1 /* UIColor+DymaicColor.m */,
+				6E69512424DE75EB0005FBD1 /* HYBUnicodeReadable */,
+				6E69511624DE4E5B0005FBD1 /* CLConsoleBundle.bundle */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		6EF27EBB22FA62A1000C4666 = {
+			isa = PBXGroup;
+			children = (
+				6EF27EC622FA62A1000C4666 /* ShanYanAppStoreDemo */,
+				6EF27EDB22FA62A2000C4666 /* ShanYanAppStoreDemoTests */,
+				6EF27EE622FA62A2000C4666 /* ShanYanAppStoreDemoUITests */,
+				6EF27EC522FA62A1000C4666 /* Products */,
+				F7CD790B506C7A6A54B81A9C /* Pods */,
+				09C2AE7AE037369A51787748 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EF27EC522FA62A1000C4666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF27EC422FA62A1000C4666 /* ShanYanAppStoreDemo.app */,
+				6EF27ED822FA62A2000C4666 /* ShanYanAppStoreDemoTests.xctest */,
+				6EF27EE322FA62A2000C4666 /* ShanYanAppStoreDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EF27EC622FA62A1000C4666 /* ShanYanAppStoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A115324C28E5C729001AC37B /* framework */,
+				6E0EC8BF23CEE8E900CD8793 /* 颜色遮罩_x264.mp4 */,
+				6EF27EC722FA62A1000C4666 /* AppDelegate.swift */,
+				6EF27EC922FA62A1000C4666 /* ViewController.swift */,
+				6E6E8E7523C2DB2C002A66CD /* ShanYanCustomLoginViewController.swift */,
+				6E76333D23C4622000724806 /* ShanYanCustomMobileCheckViewController.swift */,
+				6E76335A23C5C73A00724806 /* ShanYanCustomSMSLoginViewController.swift */,
+				6E6E8E7923C2DCF8002A66CD /* ShanYanVideoPlayerView.swift */,
+				6E5EA40922FBF3170018218C /* DebugViewController.swift */,
+				6E5EA41422FD7DBF0018218C /* PreviewSuccessViewController.swift */,
+				6E14B88E2302590B00EEA17D /* ShanYanConfigureMaker.swift */,
+				6E86438E24D7FC4B003A3863 /* ShanYanGetPhoneNumber.swift */,
+				2AB9B93A2443FFA000004612 /* OC版本参考 */,
+				6EF27ECB22FA62A1000C4666 /* Main.storyboard */,
+				6EF27ECE22FA62A2000C4666 /* Assets.xcassets */,
+				6EF27ED022FA62A2000C4666 /* LaunchScreen.storyboard */,
+				6EF27ED322FA62A2000C4666 /* Info.plist */,
+				6E14B8892301979500EEA17D /* success.gif */,
+				6E14B8B923052AED00EEA17D /* loading.gif */,
+				6E14B88323015CC800EEA17D /* ShanYanAppStoreDemo-Bridging-Header.h */,
+				6E5EA40722FBCE700018218C /* CustomButton.swift */,
+				6E14B8932302A86A00EEA17D /* CustomNavigationController.swift */,
+				2A66FCF1243DDCAC00B5E43F /* NetstatusInfo */,
+			);
+			path = ShanYanAppStoreDemo;
+			sourceTree = "<group>";
+		};
+		6EF27EDB22FA62A2000C4666 /* ShanYanAppStoreDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EF27EDC22FA62A2000C4666 /* ShanYanAppStoreDemoTests.swift */,
+				6EF27EDE22FA62A2000C4666 /* Info.plist */,
+			);
+			path = ShanYanAppStoreDemoTests;
+			sourceTree = "<group>";
+		};
+		6EF27EE622FA62A2000C4666 /* ShanYanAppStoreDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EF27EE722FA62A2000C4666 /* ShanYanAppStoreDemoUITests.swift */,
+				6EF27EE922FA62A2000C4666 /* Info.plist */,
+			);
+			path = ShanYanAppStoreDemoUITests;
+			sourceTree = "<group>";
+		};
+		A115324C28E5C729001AC37B /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				A6C551BD2DBB190B00C1A15B /* CL_ShanYanSDK.xcframework */,
+				A6C551BE2DBB190B00C1A15B /* EAccountApiSDK.xcframework */,
+				A6C551BF2DBB190B00C1A15B /* OAuth.xcframework */,
+				A6C551C02DBB190B00C1A15B /* TYRZUISDK.xcframework */,
+				A6C2D2142A2590E400FD7439 /* sdk_oauth.bundle */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		F7CD790B506C7A6A54B81A9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD62C2D82C04756B7B41FC15 /* Pods-ShanYanAppStoreDemo.debug.xcconfig */,
+				A431189F8B06CBE3870D2BAE /* Pods-ShanYanAppStoreDemo.release.xcconfig */,
+				6B60D515651EAFE8AF7B0D7B /* Pods-ShanYanAppStoreDemoTests.debug.xcconfig */,
+				539DEEA39BFBAAF6D53651A2 /* Pods-ShanYanAppStoreDemoTests.release.xcconfig */,
+				84FDCF43995816EFC7BE9431 /* Pods-ShanYanAppStoreDemoUITests.debug.xcconfig */,
+				52238138BB1E1E0FFFE4D6AD /* Pods-ShanYanAppStoreDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EF27EC322FA62A1000C4666 /* ShanYanAppStoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF27EEC22FA62A2000C4666 /* Build configuration list for PBXNativeTarget "ShanYanAppStoreDemo" */;
+			buildPhases = (
+				5DFE631675146F27CDDA1F8C /* [CP] Check Pods Manifest.lock */,
+				6EF27EC022FA62A1000C4666 /* Sources */,
+				6EF27EC122FA62A1000C4666 /* Frameworks */,
+				6EF27EC222FA62A1000C4666 /* Resources */,
+				6E14B89B2303D85A00EEA17D /* ShellScript */,
+				06D10BF12B2F200400C4D38A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShanYanAppStoreDemo;
+			productName = ShanYanAppStoreDemo;
+			productReference = 6EF27EC422FA62A1000C4666 /* ShanYanAppStoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EF27ED722FA62A2000C4666 /* ShanYanAppStoreDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF27EEF22FA62A2000C4666 /* Build configuration list for PBXNativeTarget "ShanYanAppStoreDemoTests" */;
+			buildPhases = (
+				51420A5ED10A4E546FC9CFDD /* [CP] Check Pods Manifest.lock */,
+				6EF27ED422FA62A2000C4666 /* Sources */,
+				6EF27ED522FA62A2000C4666 /* Frameworks */,
+				6EF27ED622FA62A2000C4666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EF27EDA22FA62A2000C4666 /* PBXTargetDependency */,
+			);
+			name = ShanYanAppStoreDemoTests;
+			productName = ShanYanAppStoreDemoTests;
+			productReference = 6EF27ED822FA62A2000C4666 /* ShanYanAppStoreDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EF27EE222FA62A2000C4666 /* ShanYanAppStoreDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF27EF222FA62A2000C4666 /* Build configuration list for PBXNativeTarget "ShanYanAppStoreDemoUITests" */;
+			buildPhases = (
+				5CC84965261CDC8C098CC789 /* [CP] Check Pods Manifest.lock */,
+				6EF27EDF22FA62A2000C4666 /* Sources */,
+				6EF27EE022FA62A2000C4666 /* Frameworks */,
+				6EF27EE122FA62A2000C4666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EF27EE522FA62A2000C4666 /* PBXTargetDependency */,
+			);
+			name = ShanYanAppStoreDemoUITests;
+			productName = ShanYanAppStoreDemoUITests;
+			productReference = 6EF27EE322FA62A2000C4666 /* ShanYanAppStoreDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EF27EBC22FA62A1000C4666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wanglijun;
+				TargetAttributes = {
+					6EF27EC322FA62A1000C4666 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					6EF27ED722FA62A2000C4666 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6EF27EC322FA62A1000C4666;
+					};
+					6EF27EE222FA62A2000C4666 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6EF27EC322FA62A1000C4666;
+					};
+				};
+			};
+			buildConfigurationList = 6EF27EBF22FA62A1000C4666 /* Build configuration list for PBXProject "ShanYanAppStoreDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EF27EBB22FA62A1000C4666;
+			productRefGroup = 6EF27EC522FA62A1000C4666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EF27EC322FA62A1000C4666 /* ShanYanAppStoreDemo */,
+				6EF27ED722FA62A2000C4666 /* ShanYanAppStoreDemoTests */,
+				6EF27EE222FA62A2000C4666 /* ShanYanAppStoreDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EF27EC222FA62A1000C4666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2D21A2A2590E400FD7439 /* sdk_oauth.bundle in Resources */,
+				6E14B88A2301979500EEA17D /* success.gif in Resources */,
+				6EF27ED222FA62A2000C4666 /* LaunchScreen.storyboard in Resources */,
+				6E14B8BA23052AED00EEA17D /* loading.gif in Resources */,
+				6E0EC8C023CEE98000CD8793 /* 颜色遮罩_x264.mp4 in Resources */,
+				6E69511324DE4D620005FBD1 /* LottieLogo2.json in Resources */,
+				6E69511924DE4E5B0005FBD1 /* CLConsoleBundle.bundle in Resources */,
+				6EF27ECF22FA62A2000C4666 /* Assets.xcassets in Resources */,
+				6E69510B24DE4BF60005FBD1 /* ShanYanIndex.html in Resources */,
+				6EF27ECD22FA62A1000C4666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF27ED622FA62A2000C4666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF27EE122FA62A2000C4666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D10BF12B2F200400C4D38A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShanYanAppStoreDemo/Pods-ShanYanAppStoreDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShanYanAppStoreDemo/Pods-ShanYanAppStoreDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShanYanAppStoreDemo/Pods-ShanYanAppStoreDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51420A5ED10A4E546FC9CFDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShanYanAppStoreDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC84965261CDC8C098CC789 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShanYanAppStoreDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DFE631675146F27CDDA1F8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShanYanAppStoreDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E14B89B2303D85A00EEA17D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"e4f2fbe528\"\n# #\nBUGLY_APP_KEY=\"1947327e-fbc4-4125-83b0-dabf0a3aedb3\"\n# #\nBUNDLE_IDENTIFIER=\"com.253.QuanJu\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\nUPLOAD_DEBUG_SYMBOLS=1\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n# UPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\necho \"--------------------------------\"\necho \"${1}\"\necho \"--------------------------------\"\nexit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\nP_APP_ID=\"$1\"\nP_APP_KEY=\"$2\"\nP_APP_BUNDLE_ID=\"$3\"\nP_APP_VERSION=\"$4\"\nP_BSYMBOL_ZIP_FILE=\"$5\"\n\n#\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\nP_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n\nDSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\necho \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n\necho \"-----------------------------\"\nSTATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\necho \"-----------------------------\"\n\nUPLOAD_RESULT=\"FAILTURE\"\necho \"Bugly server response: ${STATUS}\"\nif [ ! \"${STATUS}\" ]; then\necho \"Error: Failed to upload the zip archive file.\"\nelif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\necho \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\nUPLOAD_RESULT=\"SUCCESS\"\nelse\necho \"Error: Failed to upload the zip archive file to Bugly.\"\nfi\n\n#Remove temp dSYM archive\n#echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n#/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n\nif [ \"$?\" -ne 0 ]; then\nexitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\nfi\n\necho \"--------------------------------\"\necho \"${UPLOAD_RESULT} - dSYM upload complete.\"\n\nif [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\necho \"--------------------------------\"\necho \"Failed to upload the dSYM\"\necho \"Please check the script and try it again.\"\nfi\n}\n\n# .dSYM解析为bSYMBOL文件\nfunction dSYMParse() {\nDSYM_FILE=\"$1\"\nDSYM_SYMBOL_FILE=\"$2\"\n\necho \"--------------------------------\"\necho \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n(/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\necho \"--------------------------------\"\n\n}\n\n# 执行\nfunction run() {\n\nCONFIG_BUGLY_APP_ID=\"$1\"\nCONFIG_BUGLY_APP_KEY=\"$2\"\n\nCONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\nCONFIG_BUGLY_APP_VERSION=\"$4\"\nCONFIG_DSYM_SOURCE_DIR=\"$5\"\nCONFIG_DSYM_DEST_DIR=\"$6\"\nCONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n\n# 检查必须参数是否设置\nif [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\nexitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\nfi\n\nif [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\nexitWithMessage \"Error: Bugly App ID not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\nexitWithMessage \"Error: Bugly App Key not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\nexitWithMessage \"Error: Bundle Identifier not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\nexitWithMessage \"Error: App Version not defined.\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\nfi\n\nif [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nmkdir ${CONFIG_DSYM_DEST_DIR}\nfi\n\nDSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\nIFS=$'\\n'\n\necho \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\nRET=\"F\"\n\n#\nfor dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\nRET=\"T\"\necho \"Found dSYM file: $dsymFile\"\n\nDSYM_FILE_NAME=${dsymFile##*/}\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\nDSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n\nif [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\nif [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\nrm -f $DSYM_SYMBOL_ZIP_FILE\nfi\n# 如果只上传dSYM，直接压缩dSYM目录\nzip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\nelse\n# 使用符号表工具来生成Symbol文件\ndSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\nfi\n\n# 上传\ndSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\ndone\n\nif [ $RET = \"F\" ]; then\nexitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\nfi\n}\n\n# 在Xcode工程中执行\nfunction runInXcode(){\necho \"Uploading dSYM to Bugly in Xcode ...\"\n\necho \"Info.Plist : ${INFOPLIST_FILE}\"\n\nBUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\nBUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n\n# 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\nif [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\nBUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\nelse\nBUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\nfi\n\necho \"--------------------------------\"\necho \"Prepare application information.\"\necho \"--------------------------------\"\n\necho \"Product Name: ${PRODUCT_NAME}\"\necho \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\necho \"Version: ${BUNDLE_SHORT_VERSION}\"\necho \"Build: ${BUNDLE_VERSION}\"\n\necho \"Bugly App ID: ${BUGLY_APP_ID}\"\necho \"Bugly App key: ${BUGLY_APP_KEY}\"\necho \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n\necho \"--------------------------------\"\necho \"Check the arguments ...\"\n\n##检查模拟器编译是否允许上传符号\nif [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\nif [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否是Release模式编译\nif [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\nif [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否Archive操作\nif [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\nif [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\necho \"Archive the package\"\nelse\nexitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\nfi\nfi\n\n#\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n}\n\n# 根据Xcode的环境变量判断是否处于Xcode环境\nINFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n\nBuildInXcode=\"F\"\nif [ -f \"${INFO_PLIST_FILE}\" ]; then\nBuildInXcode=\"T\"\nfi\n\nif [ $BuildInXcode = \"T\" ]; then\nrunInXcode\nelse\necho \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n# 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\nBUGLY_APP_ID=\"$1\"\nBUGLY_APP_KEY=\"$2\"\nBUNDLE_IDENTIFIER=\"$3\"\nBUGLY_APP_VERSION=\"$4\"\nDWARF_DSYM_FOLDER_PATH=\"$5\"\nSYMBOL_OUTPUT_PATH=\"$6\"\nUPLOAD_DSYM_ONLY=$7\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EF27EC022FA62A1000C4666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A66FD01243DEA0C00B5E43F /* ShanYanNetworkStatusTool.m in Sources */,
+				6E5EA41522FD7DBF0018218C /* PreviewSuccessViewController.swift in Sources */,
+				6E6E8E7623C2DB2C002A66CD /* ShanYanCustomLoginViewController.swift in Sources */,
+				2A66FCCA243D9D9200B5E43F /* ShanYanNetstatusViewController.swift in Sources */,
+				6EF27ECA22FA62A1000C4666 /* ViewController.swift in Sources */,
+				6E14B88F2302590B00EEA17D /* ShanYanConfigureMaker.swift in Sources */,
+				6E69510D24DE4BF60005FBD1 /* TestViewController.m in Sources */,
+				6E69512E24DE75EC0005FBD1 /* NSSet+HYBUnicodeReadable.m in Sources */,
+				6E76335B23C5C73A00724806 /* ShanYanCustomSMSLoginViewController.swift in Sources */,
+				6E69512C24DE75EC0005FBD1 /* NSArray+HYBUnicodeReadable.m in Sources */,
+				6E76333E23C4622000724806 /* ShanYanCustomMobileCheckViewController.swift in Sources */,
+				6E69510924DE4BF60005FBD1 /* PhoneNumberCheckController.m in Sources */,
+				6E14B8942302A86A00EEA17D /* CustomNavigationController.swift in Sources */,
+				6E6E8E7A23C2DCF8002A66CD /* ShanYanVideoPlayerView.swift in Sources */,
+				6E69512D24DE75EC0005FBD1 /* NSDictionary+HYBUnicodeReadable.m in Sources */,
+				6E69511424DE4D620005FBD1 /* UIColor+DymaicColor.m in Sources */,
+				6E86438F24D7FC4C003A3863 /* ShanYanGetPhoneNumber.swift in Sources */,
+				6EF27EC822FA62A1000C4666 /* AppDelegate.swift in Sources */,
+				6E5EA40A22FBF3170018218C /* DebugViewController.swift in Sources */,
+				6E69510C24DE4BF60005FBD1 /* ShanYanUIConfigureMaker.m in Sources */,
+				6E5EA40822FBCE700018218C /* CustomButton.swift in Sources */,
+				3F0F092E25959A2300895599 /* PlayerView.m in Sources */,
+				6E69510A24DE4BF60005FBD1 /* ShanYanGetPhoneNumberDemoCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF27ED422FA62A2000C4666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF27EDD22FA62A2000C4666 /* ShanYanAppStoreDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF27EDF22FA62A2000C4666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF27EE822FA62A2000C4666 /* ShanYanAppStoreDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EF27EDA22FA62A2000C4666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EF27EC322FA62A1000C4666 /* ShanYanAppStoreDemo */;
+			targetProxy = 6EF27ED922FA62A2000C4666 /* PBXContainerItemProxy */;
+		};
+		6EF27EE522FA62A2000C4666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EF27EC322FA62A1000C4666 /* ShanYanAppStoreDemo */;
+			targetProxy = 6EF27EE422FA62A2000C4666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EF27ECB22FA62A1000C4666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF27ECC22FA62A1000C4666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EF27ED022FA62A2000C4666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF27ED122FA62A2000C4666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EF27EEA22FA62A2000C4666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EF27EEB22FA62A2000C4666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EF27EED22FA62A2000C4666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD62C2D82C04756B7B41FC15 /* Pods-ShanYanAppStoreDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20230413;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/framework",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/OC版本参考",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/OC版本参考/Vender",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PKHUD/PKHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = ShanYanAppStoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.3.6.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShanYanAppStoreDemo/ShanYanAppStoreDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		6EF27EEE22FA62A2000C4666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A431189F8B06CBE3870D2BAE /* Pods-ShanYanAppStoreDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20230413;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/framework",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/OC版本参考",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/OC版本参考/Vender",
+					"$(PROJECT_DIR)/ShanYanAppStoreDemo/frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PKHUD/PKHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = ShanYanAppStoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.3.6.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShanYanAppStoreDemo/ShanYanAppStoreDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		6EF27EF022FA62A2000C4666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B60D515651EAFE8AF7B0D7B /* Pods-ShanYanAppStoreDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				INFOPLIST_FILE = ShanYanAppStoreDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.253.ShanYanAppStoreDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShanYanAppStoreDemo.app/ShanYanAppStoreDemo";
+			};
+			name = Debug;
+		};
+		6EF27EF122FA62A2000C4666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539DEEA39BFBAAF6D53651A2 /* Pods-ShanYanAppStoreDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				INFOPLIST_FILE = ShanYanAppStoreDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.253.ShanYanAppStoreDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShanYanAppStoreDemo.app/ShanYanAppStoreDemo";
+			};
+			name = Release;
+		};
+		6EF27EF322FA62A2000C4666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FDCF43995816EFC7BE9431 /* Pods-ShanYanAppStoreDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				INFOPLIST_FILE = ShanYanAppStoreDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.253.ShanYanAppStoreDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShanYanAppStoreDemo;
+			};
+			name = Debug;
+		};
+		6EF27EF422FA62A2000C4666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52238138BB1E1E0FFFE4D6AD /* Pods-ShanYanAppStoreDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				INFOPLIST_FILE = ShanYanAppStoreDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.253.ShanYanAppStoreDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShanYanAppStoreDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EF27EBF22FA62A1000C4666 /* Build configuration list for PBXProject "ShanYanAppStoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF27EEA22FA62A2000C4666 /* Debug */,
+				6EF27EEB22FA62A2000C4666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF27EEC22FA62A2000C4666 /* Build configuration list for PBXNativeTarget "ShanYanAppStoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF27EED22FA62A2000C4666 /* Debug */,
+				6EF27EEE22FA62A2000C4666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF27EEF22FA62A2000C4666 /* Build configuration list for PBXNativeTarget "ShanYanAppStoreDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF27EF022FA62A2000C4666 /* Debug */,
+				6EF27EF122FA62A2000C4666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF27EF222FA62A2000C4666 /* Build configuration list for PBXNativeTarget "ShanYanAppStoreDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF27EF322FA62A2000C4666 /* Debug */,
+				6EF27EF422FA62A2000C4666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EF27EBC22FA62A1000C4666 /* Project object */;
+}

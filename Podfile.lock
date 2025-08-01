@@ -1,0 +1,92 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.1)
+  - Bugly (2.5.90)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - CocoaSecurity (1.2.4)
+  - CryptoSwift (1.4.0)
+  - Hero (1.5.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (7.11.0)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - PKHUD (5.3.0)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - Alamofire
+  - Bugly (~> 2.5.0)
+  - ChameleonFramework
+  - CocoaSecurity
+  - CryptoSwift
+  - Hero
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - lottie-ios (~> 2.5.3)
+  - Masonry (~> 1.1.0)
+  - PKHUD
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - Bugly
+    - ChameleonFramework
+    - CocoaSecurity
+    - CryptoSwift
+    - Hero
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios
+    - Masonry
+    - PKHUD
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 0c3afe47b34b6d7bc4d1ad8083f1bd3d920560c7
+
+COCOAPODS: 1.16.2
